@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="//db.onlinewebfonts.com/c/adea30f28777f91cb4c3f8393efbe07e?family=Sol" rel="stylesheet" type="text/css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script type="text/javascript">
+    
+// Set the date we're counting down to
+ var countDownDate = new Date("Jan 31, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  //document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+  //+ minutes + "m " + seconds + "s ";
+
+  document.getElementById("day").innerHTML = days;
+  document.getElementById("hrs").innerHTML = hours; 
+  document.getElementById("mins").innerHTML = minutes; 
+  document.getElementById("secs").innerHTML = seconds;  
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+</script>
+
+</head>
+<body>
+ <!-- Just an image -->
+<nav class="navbar navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="logopisb.png" alt="" width="150">
+    </a>
+     <a style="float: right;" class="navbar-brand" href="#">
+      <img src="ieeelogo.png" alt="" width="150">
+    </a>
+  </div>
+</nav>
+<div class="main">
+  <div id='content'>
+    <div class='title'>
+      <span>CREDENZ LIVE</span>
+    </div><br><br><br>
+    <p style="color: #79f6fc">Something big is coming soon!</p>
+    <br><br><br>
+    <section>
+      <ul id="countdown">
+        <li><span id="day" class="days timenumbers"></span>
+          <p class="timeRefDays timedescription">days</p>
+        </li>
+        <li><span id="hrs" class="hours timenumbers"></span>
+          <p class="timeRefHours timedescription">hours</p>
+        </li>
+        <li><span id="mins" class="minutes timenumbers"></span>
+          <p class="timeRefMinutes timedescription">minutes</p>
+        </li>
+        <li><span id="secs" class="seconds timenumbers yellow-text"></span>
+          <p class="timeRefSeconds timedescription">seconds</p>
+        </li>
+      </ul>
+    </section>
+    <div class="mobile-hide">
+      <img src="ieeelogo.png">
+    </div>
+    
+  </div>
+</div>
+</body>
+</html>
