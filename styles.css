@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
+@import url(//db.onlinewebfonts.com/c/da6a64aa050bea18183a4f1cf97f23ab?family=Sol);
 html {
   box-sizing: border-box;
 }
+
+@font-face {font-family: "Sol"; src: url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.eot"); src: url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.woff") format("woff"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.svg#Sol") format("svg"); }
 
 *,
 *:before,
