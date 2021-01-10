@@ -1,12 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Quicksand:400,300,700);
-@import url(//db.onlinewebfonts.com/c/da6a64aa050bea18183a4f1cf97f23ab?family=Sol);
+@import url(//db.onlinewebfonts.com/c/adea30f28777f91cb4c3f8393efbe07e?family=Sol);
 html {
   box-sizing: border-box;
 }
 
-@font-face {font-family: "Sol"; src: url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.eot"); src: url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.woff") format("woff"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/da6a64aa050bea18183a4f1cf97f23ab.svg#Sol") format("svg"); }
-
-*,
+@font-face {font-family: "Sol"; src: url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.eot"); src: url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.woff") format("woff"), url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/adea30f28777f91cb4c3f8393efbe07e.svg#Sol") format("svg"); }*,
 *:before,
 *:after {
   box-sizing: inherit;
@@ -30,7 +28,7 @@ nav {
  html .main #content section .timenumbers,
 body .main #content section .timenumbers {
   display: block;
-  font-size: 1.3rem;
+  font-size: 2.3rem;
   color: "red";
   font-weight: 400;
   line-height: 1.5rem;
@@ -39,7 +37,7 @@ body .main #content section .timenumbers {
 }
 html .main #content section p.timedescription,
 body .main #content section p.timedescription {
-  font-size: 0.5rem;
+  font-size: 1.5rem;
   font-variant: small-caps;
   line-height: 1.5rem;
   margin: 0 auto;
@@ -196,7 +194,7 @@ body .main #content section ul li {
   }
   html .main #content section p.timedescription,
   body .main #content section p.timedescription {
-    font-size: 0.5rem;
+    font-size: 2.5rem;
     font-variant: small-caps;
     line-height: 1.5rem;
     margin: 0 auto;
